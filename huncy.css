@@ -8,7 +8,7 @@ ul{
     display: flex;
 }
 
-h2 {
+h2, .dropdown-program-li {
     font-family: "ReaderPro", sans-serif;
     font-size: 27px;
 }
@@ -18,6 +18,16 @@ h2 {
     margin: 10px;
 }
 
+#dropdown-top{
+    height: 400px;
+    width: 200px;
+    background: url('./hunc\ test.jpg');
+    list-style: none;
+}
+
+.dropdown-program-li{
+    color: white;
+}
 @font-face {
     font-family: "ReaderPro";
     font-weight: 400;
